@@ -1,1 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML TEXT FORMATTING</title></head>
+<body>
+<h1>Lorem Ipsum</h1>
+<p>"<b>Neque</b> porro <strong>quisquam</strong> est <i>qui</i>qui dolorem <em>ipsum</em> quia <mark>dolor</mark> sit amet, consectetur, adipisci velit..."
+"There is no one who love<sub>s</sub> <small>pain</small> itself, <big>who</big> seeks after it and wants to have it, <big>simply</big> because it is pain..."</p>
+<p><mark>กรวิกศ์ อุ่มเครือ เลขที่12 ม.6/9</mark>
 
+</body>
+</html>
