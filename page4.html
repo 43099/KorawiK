@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<title>work08 html layout</title>
+<meta charset="utf-8">
+<style>
+*{
+box-sizing:border-box;
+padding:0;
+margin:0;
+}
+body{
+font-family:"Kanit","Leelawadee UI","TH Sarabun New",Tahoma;
+font-size:18px;
+background-color:#4A4A4A;
+}
+.container{
+width:1024px;
+margin:0 auto;
+background-color:#fff;
+}
+header{
+height:256px;
+background-color:#242424;
+border-bottom:6px solid #D33A28;
+background-image:url(image.jpg);
+}
+nav{
+background-color:#1C1C1C;
+flex:1;
+padding:20px 0;
+}
+article{
+background-color:#fff;
+padding:28px 32px;
+flex:3;
+}
+article h1{
+font-size:30px;
+color:#1C1C1C;
+border-left:9px solid #D33A28;
+padding-left:14px;
+margin-bottom:12px;
+}
+article h3{
+font-size:21px;
+color:#D33A28;
+margin:20px 0 4px 0;
+}
+article p{
+margin-bottom:12px;
+}
+article ul,article ol{
+margin:0 0 12px 30px;
+}
+.box{
+background-color:#2B2B2B;
+color:#EDEDED;
+border-left:6px solid #D33A28;
+padding:14px 18px;
+margin:18px 0;
+}
+table{
+border-collapse:collapse;
+width:100%;
+margin:16px 0;
+}
+th{
+background-color:#1C1C1C;
+color:#D33A28;
+padding:10px;
+text-align:left;
+}
+td{
+border-bottom:1px solid #DDDDDD;
+padding:10px;
+}
+footer{
+background-color:#1C1C1C;
+padding:25px;
+text-align:center;
+color:#BFBFBF;
+border-top:6px solid #D33A28;
+}
+section{
+display:flex;
+}
+a:link{
+color:#CFCFCF;
+text-decoration:none;
+background-color:#1C1C1C;
+display:block;
+width:100%;
+padding:12px 20px;
+}
+a:visited{
+color:#B5B5B5;
+}
+a:hover{
+color:#fff;
+background-color:#D33A28;
+}
+a:active{
+color:#D33A28;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header></header>
+
+<section>
+<nav>
+<ul style="list-style-type:none">
+<li><a href="index.html">กีตาร์คืออะไร</a></li>
+<li><a href="page2.html">ประเภทของกีตาร์</a></li>
+<li><a href="page3.html">ส่วนประกอบ</a></li>
+<li><a href="page4.html">คอร์ดพื้นฐาน</a></li>
+<li><a href="page5.html">การดูแลรักษา</a></li>
+</ul>
+</nav>
+<article>
+<h1>คอร์ดที่ควรหัดก่อน</h1>
+<p>คอร์ดคือการกดสายหลายสายพร้อมกันแล้วดีดออกมาเป็นเสียงประสาน ผู้เริ่มต้นไม่จำเป็นต้องจำคอร์ดทั้งหมด เพียงจำคอร์ดพื้นฐานไม่กี่ตัวก็เล่นเพลงยอดนิยมได้จำนวนมากแล้ว</p>
+
+<h3>ลำดับการฝึกที่แนะนำ</h3>
+<ol>
+<li>เริ่มจาก Em และ Am เพราะใช้นิ้วน้อยและกดง่ายที่สุด</li>
+<li>ต่อด้วย C และ G ซึ่งเป็นคอร์ดที่พบบ่อยที่สุดในเพลงไทย</li>
+<li>เมื่อคล่องแล้วจึงฝึก D และ F ซึ่งต้องใช้แรงนิ้วมากขึ้น</li>
+</ol>
+
+<h3>ชุดคอร์ดยอดนิยม</h3>
+<table>
+<tr><th>ชุดคอร์ด</th><th>อารมณ์เพลง</th></tr>
+<tr><td>C - G - Am - F</td><td>สดใส ฟังง่าย ใช้ได้กับเพลงป็อปจำนวนมาก</td></tr>
+<tr><td>Am - F - C - G</td><td>เศร้าเล็กน้อย นุ่มนวล</td></tr>
+<tr><td>G - Em - C - D</td><td>อบอุ่น เหมาะกับเพลงโฟล์ก</td></tr>
+</table>
+
+<h3>เคล็ดลับการฝึก</h3>
+<ul>
+<li>กดสายด้วยปลายนิ้วให้ตั้งฉาก อย่าให้นิ้วไปโดนสายข้างเคียง</li>
+<li>กดใกล้เส้นเฟร็ตจะออกแรงน้อยกว่าและเสียงไม่บอด</li>
+<li>ดีดทีละสายเพื่อตรวจว่าทุกสายดังชัดก่อนตีรวม</li>
+<li>ฝึกเปลี่ยนคอร์ดช้า ๆ ให้ถูกก่อน แล้วค่อยเพิ่มความเร็ว</li>
+<li>ฝึกวันละ 15 ถึง 20 นาทีอย่างสม่ำเสมอ ดีกว่าฝึกทีเดียวนาน ๆ</li>
+</ul>
+
+<div class="box">
+<p>ช่วงแรกปลายนิ้วจะเจ็บเป็นเรื่องปกติ เมื่อฝึกไปสักระยะผิวบริเวณปลายนิ้วจะหนาขึ้นและอาการเจ็บจะค่อย ๆ หายไปเอง</p>
+</div>
+</article>
+</section>
+<footer>
+<p>จัดทำโดย กรวิกศ์ อุ่มเครือ ชั้น ม.6/9 เลขที่ 12<br>โรงเรียนรัตนราษฏร์บำรุง</p>
+</footer>
+</div>
+</body>
+</html>
