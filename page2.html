@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<title>work08 html layout</title>
+<meta charset="utf-8">
+<style>
+*{
+box-sizing:border-box;
+padding:0;
+margin:0;
+}
+body{
+font-family:"Itim",Tahoma;
+font-size:18px;
+background-color:#4A4A4A;
+}
+.container{
+width:1024px;
+margin:0 auto;
+background-color:#fff;
+}
+header{
+height:256px;
+background-color:#242424;
+border-bottom:6px solid #C62828;
+background-image:url(image.jpg);
+}
+nav{
+background-color:#1C1C1C;
+flex:1;
+padding:20px 0;
+}
+article{
+background-color:#fff;
+padding:28px 32px;
+flex:3;
+}
+article h1{
+font-size:30px;
+color:#1C1C1C;
+border-left:9px solid #C62828;
+padding-left:14px;
+margin-bottom:12px;
+}
+article h3{
+font-size:21px;
+color:#C62828;
+margin:20px 0 4px 0;
+}
+article p{
+margin-bottom:12px;
+}
+article ul,article ol{
+margin:0 0 12px 30px;
+}
+.box{
+background-color:#2B2B2B;
+color:#EDEDED;
+border-left:6px solid #C62828;
+padding:14px 18px;
+margin:18px 0;
+}
+table{
+border-collapse:collapse;
+width:100%;
+margin:16px 0;
+}
+th{
+background-color:#1C1C1C;
+color:#C62828;
+padding:10px;
+text-align:left;
+}
+td{
+border-bottom:1px solid #DDDDDD;
+padding:10px;
+}
+footer{
+background-color:#1C1C1C;
+padding:25px;
+text-align:center;
+color:#BFBFBF;
+border-top:6px solid #C62828;
+}
+section{
+display:flex;
+}
+a:link{
+color:#CFCFCF;
+text-decoration:none;
+background-color:#1C1C1C;
+display:block;
+width:100%;
+padding:12px 20px;
+}
+a:visited{
+color:#B5B5B5;
+}
+a:hover{
+color:#fff;
+background-color:#C62828;
+}
+a:active{
+color:#C62828;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header></header>
+
+<section>
+<nav>
+<ul style="list-style-type:none">
+<li><a href="index.html">กีตาร์คืออะไร</a></li>
+<li><a href="page2.html">ประเภทของกีตาร์</a></li>
+<li><a href="page3.html">ส่วนประกอบ</a></li>
+<li><a href="page4.html">คอร์ดพื้นฐาน</a></li>
+<li><a href="page5.html">การดูแลรักษา</a></li>
+</ul>
+</nav>
+<article>
+<h1>กีตาร์มีกี่ประเภท</h1>
+<p>กีตาร์แบ่งออกได้เป็นสามประเภทหลัก แต่ละประเภทต่างกันทั้งชนิดของสาย รูปทรงลำตัว และวิธีขยายเสียง จึงให้น้ำเสียงและความรู้สึกในการเล่นที่ไม่เหมือนกัน</p>
+
+<h3>กีตาร์โปร่ง</h3>
+<p>ใช้สายเหล็ก ลำตัวใหญ่ เสียงดังกังวานและคมชัด เหมาะกับการเล่นตีคอร์ดคลอร้องในเพลงป็อปและโฟล์ก เป็นประเภทที่คนไทยนิยมมากที่สุด</p>
+
+<h3>กีตาร์คลาสสิก</h3>
+<p>ใช้สายไนลอน คอกว้างกว่ากีตาร์โปร่ง เสียงนุ่มและอบอุ่น นิยมเล่นเพลงคลาสสิกด้วยการเกาทีละสาย สายไนลอนนิ่มกว่าจึงเจ็บปลายนิ้วน้อยกว่า</p>
+
+<h3>กีตาร์ไฟฟ้า</h3>
+<p>ลำตัวตันไม่มีโพรงเสียง ใช้อุปกรณ์รับเสียงที่เรียกว่าปิ๊กอัพแปลงการสั่นของสายเป็นสัญญาณไฟฟ้า ต้องต่อเข้ากับแอมป์จึงจะได้ยินเสียงเต็มที่ นิยมในเพลงร็อกและบลูส์</p>
+
+<table>
+<tr><th>ประเภท</th><th>ชนิดสาย</th><th>ลักษณะเสียง</th><th>เหมาะกับ</th></tr>
+<tr><td>กีตาร์โปร่ง</td><td>สายเหล็ก</td><td>ดัง คมชัด</td><td>ป็อป โฟล์ก เล่นคลอร้อง</td></tr>
+<tr><td>กีตาร์คลาสสิก</td><td>สายไนลอน</td><td>นุ่ม อบอุ่น</td><td>เพลงคลาสสิก การเกาสาย</td></tr>
+<tr><td>กีตาร์ไฟฟ้า</td><td>สายเหล็ก</td><td>ปรับแต่งได้หลากหลาย</td><td>ร็อก บลูส์ เล่นรวมวง</td></tr>
+</table>
+
+<h3>เครื่องดนตรีในตระกูลเดียวกัน</h3>
+<ul>
+<li>กีตาร์เบส มี 4 สาย เสียงต่ำ ทำหน้าที่คุมจังหวะและเสียงเบสของวง</li>
+<li>อูคูเลเล่ มี 4 สาย ตัวเล็ก เสียงสดใส เหมาะกับผู้เริ่มต้นที่มือเล็ก</li>
+<li>กีตาร์โปร่งไฟฟ้า คือกีตาร์โปร่งที่ติดปิ๊กอัพไว้ในตัว ต่อแอมป์ขึ้นเวทีได้</li>
+</ul>
+
+<div class="box">
+<p>ผู้เริ่มต้นที่อยากเล่นคลอร้องทั่วไป กีตาร์โปร่งเป็นตัวเลือกที่ดีที่สุด แต่ถ้ากลัวเจ็บปลายนิ้ว กีตาร์คลาสสิกที่ใช้สายไนลอนจะกดง่ายกว่า</p>
+</div>
+</article>
+</section>
+<footer>
+<p>จัดทำโดย กรวิกศ์ อุ่มเครือ ชั้น ม.6/9 เลขที่ 12<br>โรงเรียนรัตนราษฏร์บำรุง</p>
+</footer>
+</div>
+</body>
+</html>
